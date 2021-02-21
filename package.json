@@ -1,0 +1,30 @@
+{
+  "name": "clicklogiq-test",
+  "version": "1.0.0",
+  "description": "no desc",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NEWS_API_KEY=56ebe961104d4ef4a60e4586250e11b7 && nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w1nsun/clicklogiq-test.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "w1nsun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w1nsun/clicklogiq-test/issues"
+  },
+  "homepage": "https://github.com/w1nsun/clicklogiq-test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "newsapi": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
